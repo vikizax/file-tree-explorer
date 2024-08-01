@@ -1,0 +1,18 @@
+.atn-container {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.container label {
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
